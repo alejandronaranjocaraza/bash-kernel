@@ -1,0 +1,5 @@
+./archive/old_export.csv
+./data/exposures.csv
+./data/large_export.csv
+./data/empty.csv
+./data/customers.csv

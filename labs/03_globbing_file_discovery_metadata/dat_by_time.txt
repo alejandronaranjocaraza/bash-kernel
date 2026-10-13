@@ -1,0 +1,6 @@
+total 8
+-rw-rw-r-- 1 zapatinb zapatinb       0 Oct 10 18:15 hola.txt
+-rw-rw-r-- 1 zapatinb zapatinb 2097152 Oct 10 16:49 large_export.csv
+-rw-rw-r-- 1 zapatinb zapatinb       0 Oct 10 16:49 empty.csv
+-rw-rw-r-- 1 zapatinb zapatinb      25 Oct 10 16:49 customers.csv
+-rw-rw-r-- 1 zapatinb zapatinb      28 Oct 10 16:49 exposures.csv

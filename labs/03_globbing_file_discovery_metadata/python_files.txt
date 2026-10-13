@@ -1,0 +1,2 @@
+./scripts/validate.py
+./scripts/hello.py

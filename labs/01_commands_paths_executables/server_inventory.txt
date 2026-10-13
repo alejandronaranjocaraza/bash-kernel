@@ -1,0 +1,26 @@
+Hostname: zapatinb
+
+User: zapatinb
+
+Home: /home/zapatinb
+
+Shell: /bin/bash
+
+Path
+
+/home/zapatinb/bin/:/home/zapatinb/.npm-global/bin:/usr/local/bin:/home/zapatinb/bin:/home/zapatinb/.npm-global/bin:/usr/local/bin:/home/zapatinb/bin:/home/zapatinb/.npm-global/bin:/usr/local/bin:/home/zapatinb/bin:/home/zapatinb/.npm-global/bin:/usr/local/bin:/home/zapatinb/.local/bin:/home/zapatinb/bin:/home/zapatinb/bin:/home/zapatinb/.npm-global/bin:/home/zapatinb/.cargo/bin:/home/zapatinb/miniconda3/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/opt/nvim-linux-x86_64/bin:/opt/nvim-linux-x86_64/bin:/opt/nvim-linux-x86_64/bin:/opt/nvim-linux-x86_64/bin:/opt/nvim-linux-x86_64/bin
+
+OS: linux-gnu
+
+Kernel: Linux (Debian 16.12.107-1)
+
+Bash Location: 
+
+  /usr/bin/bash /usr/share/man/man1/bash.1.gz
+python: /home/zapatinb/miniconda3/bin/python
+
+Grep:
+
+  /usr/bin/grep /usr/share/man/man1/grep.1.gz /usr/share/info/grep.info.gz
+
+Commands Searched In: $PATH

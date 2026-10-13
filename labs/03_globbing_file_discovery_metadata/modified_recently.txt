@@ -1,0 +1,14 @@
+./archive/old_export.csv
+./python_files.txt
+./large_files.txt
+./scripts/validate.py
+./scripts/hello.py
+./logs/pipeline.log
+./data/exposures.csv
+./data/large_export.csv
+./data/empty.csv
+./data/customers.csv
+./empty_files.txt
+./csv_files.txt
+./modified_recently.txt
+./log_files.txt

@@ -1,0 +1,50 @@
+ 1992  cat > lazy_dog.txt
+ 1993  ls
+ 1994  cat lazy_dog.txt
+ 1995  clear
+ 1996  ls -l * | less
+ 1997  ls /bin /usr/bin | sort | uniq | grep zip
+ 1998  man grep
+ 1999  ls /bin /usr/bin | sort | uniq | grep -l zip
+ 2000  clear
+ 2001  ls
+ 2002  head risk_job.log
+ 2003  tail risk_job.log
+ 2004  clear
+ 2005  ls
+ 2006  man head
+ 2007  ls
+ 2008  man -n 1 risk_job.log
+ 2009  head -n 1 risk_job.log
+ 2010  head -n=1 risk_job.log
+ 2011  head -n 5 risk_job.log > first_lines.txt
+ 2012  ls
+ 2013  tail -n 5 risk_job.log > last_lines.txt
+ 2014  grep ERROR risk_job.log
+ 2015  grep ERROS risk_job.log > errors.txt
+ 2016  ls
+ 2017  man grep
+ 2018  ls
+ 2019  grep -c WARNING risk_job.log
+ 2020  grep SUC risk_job.log
+ 2021  tail risk_job.log
+ 2022  clear
+ 2023  man grep
+ 2024  ls
+ 2025  grep -i SUCC risk_job.log
+ 2026  grep -i ERROR > investigation.txt; grep -i WARNING >> investigation.txt;
+ 2027  grep -i ERROR risk_job.log > investigation.txt; grep -i WARNING risk_investigation.txt >> investigation.txt;
+ 2028  grep -i ERROR risk_job.log > investigation.txt; grep -i WARNING investigation.txt >> investigation.txt;
+ 2029  grep -i ERROR risk_job.log > investigation.txt; grep -i WARNING risk_job.txt >> investigation.txt;
+ 2030  grep -i ERROR risk_job.log > investigation.txt; grep -i WARNING risk_job.log >> investigation.txt;
+ 2031  ls
+ 2032  cat risk_investigation.txt
+ 2033  cat investigation.txt
+ 2034  wc -l risk_job.log
+ 2035  man wc
+ 2036  wc -l risk_job.log > line_count.txt
+ 2037  cat line_count.txt
+ 2038  man wc
+ 2039  history
+ 2040  clear
+ 2041  history | tail -n 50 > history.txt

@@ -1,0 +1,5 @@
+2026-10-10 02:00:06 INFO Loaded 15000 records
+2026-10-10 02:00:12 WARNING Query took longer than expected
+2026-10-10 02:00:15 INFO Starting score calculation
+2026-10-10 02:00:30 INFO Score calculation completed
+2026-10-10 02:00:32 INFO Export completed successfully

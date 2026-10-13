@@ -1,0 +1,5 @@
+2026-10-10 01:00:12 ERROR Failed to read configuration
+2026-10-10 01:00:17 ERROR Configuration file not found
+2026-10-10 01:00:07 WARNING Missing income for customer 1042
+2026-10-10 01:00:15 WARNING Retry attempt 1
+2026-10-10 02:00:12 WARNING Query took longer than expected

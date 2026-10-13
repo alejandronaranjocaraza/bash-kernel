@@ -1,0 +1,5 @@
+2026-10-10 01:00:01 INFO Starting risk calculation
+2026-10-10 01:00:02 INFO Loading customer data
+2026-10-10 01:00:04 INFO Loaded 12000 records
+2026-10-10 01:00:07 WARNING Missing income for customer 1042
+2026-10-10 01:00:08 INFO Starting score calculation

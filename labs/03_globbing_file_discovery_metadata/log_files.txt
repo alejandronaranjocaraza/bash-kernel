@@ -1,0 +1,2 @@
+./logs/pipeline.log
+./logs/finished.log
