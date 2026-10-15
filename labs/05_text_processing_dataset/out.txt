@@ -1,0 +1,13 @@
+HEADER AND FIRST TEN RECORDS
+
+application_id,product,status,exposure,dpd,score
+1,invoice_financing,pending,104500,15,437
+2,term_loan,approved,153774,0,659
+3,working_capital,approved,114677,0,523
+4,working_capital,rejected,16495,30,463
+5,working_capital,rejected,153829,45,695
+6,term_loan,approved,58955,0,839
+7,working_capital,approved,38815,0,692
+8,invoice_financing,rejected,179782,0,697
+9,term_loan,rejected,98621,0,764
+10,working_capital,rejected,163269,0,748

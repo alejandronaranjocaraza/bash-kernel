@@ -1,0 +1,11 @@
+aaa cde
+aab cde
+aac cde
+aba cde
+aca acd
+baa cde
+bba cde
+bba ceg
+bbb abc
+bba bcd
+bbb abc

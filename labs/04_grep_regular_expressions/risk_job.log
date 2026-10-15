@@ -1,0 +1,17 @@
+2026-10-10 01:00:01 INFO Starting risk calculation
+2026-10-10 01:00:02 INFO Loading customer data
+2026-10-10 01:00:04 INFO Loaded 12000 records
+2026-10-10 01:00:07 WARNING Missing income for customer 1042
+2026-10-10 01:00:08 INFO Starting score calculation
+2026-10-10 01:00:12 ERROR Failed to read configuration
+2026-10-10 01:00:13 INFO Retrying configuration load
+2026-10-10 01:00:15 WARNING Retry attempt 1
+2026-10-10 01:00:17 ERROR Configuration file not found
+2026-10-10 01:00:18 INFO Job terminated
+2026-10-10 02:00:01 INFO Starting second job
+2026-10-10 02:00:03 INFO Loading customer data
+2026-10-10 02:00:06 INFO Loaded 15000 records
+2026-10-10 02:00:12 WARNING Query took longer than expected
+2026-10-10 02:00:15 INFO Starting score calculation
+2026-10-10 02:00:30 INFO Score calculation completed
+2026-10-10 02:00:32 INFO Export completed successfully
