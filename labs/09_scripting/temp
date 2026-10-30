@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+lafunc() {
+  if (( $x > 5 )); then
+    echo "x es mayor a 5";
+  else
+    echo "x no es mayor a 5";
+  fi
+  return
+}
+
+cat <<- EOF
+hola
+me llamo alejandro
+  hola
+EOF
+
+x=6;
+lafunc;
+x=5;
+lafunc;
+x=4;
+lafunc;
+

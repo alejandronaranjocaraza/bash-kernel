@@ -1,0 +1,7 @@
+1. Inspect both files with ls -l
+
+done
+
+ 2008  chmod 744 risk_pipeline.sh 
+ 2009  ./risk_pipeline.sh 
+ 2010  history | tail -n 3 >> out.txt

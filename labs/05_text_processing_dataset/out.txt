@@ -1,6 +1,6 @@
-HEADER AND FIRST TEN RECORDS
 
-application_id,product,status,exposure,dpd,score
+First 10 lines
+
 1,invoice_financing,pending,104500,15,437
 2,term_loan,approved,153774,0,659
 3,working_capital,approved,114677,0,523
@@ -11,3 +11,61 @@ application_id,product,status,exposure,dpd,score
 8,invoice_financing,rejected,179782,0,697
 9,term_loan,rejected,98621,0,764
 10,working_capital,rejected,163269,0,748
+
+Header
+
+application_id,product,status,exposure,dpd,score
+
+Line count
+
+10000
+
+Line count 2 (with awk -F ',' 'NR>1 {i++} END {print i}' risk_applications.csv
+
+10000
+
+Application count by status
+
+empezamos
+rejected 3011
+approved 5014
+pending 1975
+gracias
+
+Sorted list of products
+cut -d ',' -f 2 risk_applications.csv | sort | uniq
+
+invoice_financing
+product
+term_loan
+working_capital
+
+Number of dpd>30
+awk -F ',' 'BEGIN{inf=30} NR>1 {if( > inf)i++} END {print i}' risk_applications.csv
+
+1485
+
+Calculate exposure per product
+awk -F ',' 'NR>1 {out[]+=} END {for(o in out)print o: out[o]}' risk_applications.csv
+working_capital: 328617288
+invoice_financing: 341846301
+term_loan: 336861936
+
+Ten largest exposures
+
+     1	6465,term_loan,approved,199899,30,539
+     2	46,term_loan,pending,199789,45,812
+     3	8373,term_loan,pending,199769,45,562
+     4	4187,term_loan,approved,199705,15,523
+     5	6676,working_capital,approved,199550,15,680
+     6	5712,invoice_financing,rejected,199489,30,623
+     7	9451,invoice_financing,rejected,199443,60,513
+     8	6586,invoice_financing,rejected,199347,45,759
+     9	4558,invoice_financing,approved,199275,30,443
+    10	3549,invoice_financing,approved,199170,60,446
+
+
+Average score for approved applicants
+
+
+3131858 5014 624.623

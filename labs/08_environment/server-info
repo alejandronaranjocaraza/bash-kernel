@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+echo "User: $USER"
+echo "Host: $(hostname)"
+echo "Shell: $SHELL"
+echo "Kernel: $(uname -r)"
+echo "Uptime:"
+uptime
+
+# Use the supplied directory, or the current directory if none was provided.
+directory="${1:-.}"
+
+echo "Disk space for $directory:"
+df -h "$directory"
